@@ -1,21 +1,17 @@
 import { useState } from 'react';
-
 import Button from 'react-bootstrap/Button';
-
-
 import PRODUCTS from '../../data/productos.json';
 import Productos from './Productos';
 
 const Tienda = () => {
+  
   const categorias = [...new Set(PRODUCTS.map((producto) => producto.categoria))];
   const [selectedCategory, setSelectedCategory] = useState(categorias[0]);
   const handleCategoryChange = (categoria) => {
     setSelectedCategory(categoria);
   };
+
   const filteredProducts = PRODUCTS.filter((producto) => producto.categoria === selectedCategory);
-
-
-
 
   return (
     <>
