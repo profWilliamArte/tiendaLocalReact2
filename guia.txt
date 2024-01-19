@@ -10,4 +10,7 @@
 5) Limpiar proyecto
     borrar el contenido de App.css e Index.css
     limpiar el app.jsx 
-6) Crear las carpetas pages y components dentro de src
+6) Crear las carpetas datos, pages y components dentro de src
+7) Colocar el archivo productos.json dentro la carpeta data
+8) En componentes crear Carrusel.jsx, Footer.jsx y Header.jsx
+9) En Pages Crear las carpetas home y dentro los componentes Home.jsx y Nosotros.jsx
