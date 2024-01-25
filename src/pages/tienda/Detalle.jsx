@@ -5,7 +5,7 @@ const Detalle = ({show, handleClose, producto}) => {
 
     const { imagen,nombre, disponible, categoria, precio} = producto.data;
 
-    console.log(imagen)
+    
   return (
    <>
         <Modal show={show} onHide={handleClose} size="lg">

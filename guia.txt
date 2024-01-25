@@ -4,9 +4,10 @@
 3) Instalar dependencias
     npm install react-bootstrap bootstrap
     npm install react-router-dom // para manejar las rutas
-    npm install phosphor-react   // para agregar los iconos
+    npm install bootstrap-icons   // para agregar los iconos
 4) importar el css de bootstrap en main.jsx antes de import './index.css'
     import "bootstrap/dist/css/bootstrap.min.css";
+    import "bootstrap-icons/font/bootstrap-icons.css"
 5) Limpiar proyecto
     borrar el contenido de App.css e Index.css
     limpiar el app.jsx 
